@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Open_Lab_02._04
 {
@@ -6,7 +6,8 @@ namespace Open_Lab_02._04
     {
         public int GetLegsCount(int chickens, int cows, int pigs)
         {
-            throw new NotImplementedException();
+            int j = (chickens * 2) + (cows * 4) + (pigs * 4);
+            return j;
         }
     }
 }
